@@ -202,7 +202,8 @@ The following waveform confirms successful:
 
 ### Screenshot
 
-![GTKWave Simulation Output]<img width="1920" height="1080" alt="simulation_output" src="https://github.com/user-attachments/assets/8cdd5b13-18ac-40ba-8af3-a5db7025c4dd" />
+![GTKWave Simulation Output]<img width="1920" height="1024" alt="simulation_output" src="https://github.com/user-attachments/assets/16cc8b3c-7d29-4cab-bda4-e4aecf591654" />
+
 
 
 
