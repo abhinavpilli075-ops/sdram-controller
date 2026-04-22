@@ -1,11 +1,10 @@
 ````markdown
-# SDRAM Controller
+SDRAM Controller
 
 A **Pipelined SDRAM Controller** implemented in **Verilog HDL** for efficient read and write transactions between a host interface and SDRAM memory. This project supports SDRAM initialization, read/write operations, refresh cycles, and command sequencing using a Finite State Machine (FSM) with pipelining for improved performance.
 
 ---
-
-## 📌 Project Overview
+Project Overview
 
 This project implements a synchronous dynamic random-access memory (**SDRAM**) controller that acts as an interface between the host processor/system and SDRAM memory.
 
@@ -23,7 +22,7 @@ The design improves memory throughput by using a pipelined approach where multip
 
 ---
 
-## 🏗️ Block Diagram
+Block Diagram
 
 ```text
 Host Interface                    SDRAM Interface
@@ -44,7 +43,7 @@ Host Interface                    SDRAM Interface
 
 ---
 
-## ⚙️ Features
+ Features
 
 * Verilog HDL based implementation
 * FSM-controlled SDRAM command generation
@@ -59,7 +58,7 @@ Host Interface                    SDRAM Interface
 
 ---
 
-## 📂 Repository Structure
+ Repository Structure
 
 ```text
 sdram-controller/
@@ -72,7 +71,7 @@ sdram-controller/
 
 ---
 
-## 🔁 Pipeline Mechanism
+ Pipeline Mechanism
 
 The SDRAM controller uses pipining to improve speed and reduce idle clock cycles.
 
@@ -103,7 +102,7 @@ This improves throughput and ensures better utilization of memory cycles.
 
 ---
 
-## 🧠 FSM States Used
+ FSM States Used
 
 The controller uses the following states:
 
@@ -122,7 +121,7 @@ The controller uses the following states:
 
 ---
 
-## 🧪 Testbench Verification
+ Testbench Verification
 
 The testbench verifies:
 
@@ -160,7 +159,7 @@ PASS: data matches
 
 ---
 
-## 🖥️ Simulation Tools Used
+ Simulation Tools Used
 
 * **Icarus Verilog**
 * **GTKWave**
@@ -168,8 +167,7 @@ PASS: data matches
 * **GitHub**
 
 ---
-
-## ▶️ Simulation Commands
+ Simulation Commands
 
 ### Compile
 
@@ -191,7 +189,7 @@ gtkwave sdram_tb.vcd
 
 ---
 
-## 📷 GTKWave Simulation Output
+ GTKWave Simulation Output
 
 The following waveform confirms successful:
 
@@ -204,19 +202,16 @@ The following waveform confirms successful:
 
 ### Screenshot
 
-![GTKWave Simulation Output](simulation_output.png)
-
-> Make sure to upload your GTKWave screenshot in the repository with the filename:
+![GTKWave Simulation Output](<img width="1920" height="1080" alt="simulation_output" src="https://github.com/user-attachments/assets/3ab8943e-c103-441c-abad-86e26a23ca37" />
+)
 
 ```text
 simulation_output.png
 ```
 
-This will allow GitHub to display the image properly inside README.
 
----
 
-## 🎯 Applications
+ Applications
 
 This project is useful in:
 
@@ -230,7 +225,7 @@ This project is useful in:
 
 ---
 
-## 🚀 Future Improvements
+ Future Improvements
 
 Possible future upgrades:
 
@@ -244,7 +239,7 @@ Possible future upgrades:
 
 ---
 
-## 👨‍💻 Author
+ Author
 
 **Abhinav Pilli**
 
@@ -254,7 +249,7 @@ Pipelined SDRAM Controller
 
 ---
 
-## 📜 License
+ License
 
 This project is intended for academic and educational purposes.
 
