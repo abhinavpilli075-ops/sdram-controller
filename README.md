@@ -202,12 +202,8 @@ The following waveform confirms successful:
 
 ### Screenshot
 
-![GTKWave Simulation Output](<img width="1920" height="1080" alt="simulation_output" src="https://github.com/user-attachments/assets/3ab8943e-c103-441c-abad-86e26a23ca37" />
-)
+![GTKWave Simulation Output]<img width="1920" height="1080" alt="simulation_output" src="https://github.com/user-attachments/assets/8cdd5b13-18ac-40ba-8af3-a5db7025c4dd" />
 
-```text
-simulation_output.png
-```
 
 
 
@@ -252,8 +248,3 @@ Pipelined SDRAM Controller
  License
 
 This project is intended for academic and educational purposes.
-
----
-
-```
-```
